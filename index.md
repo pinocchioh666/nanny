@@ -1,37 +1,262 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="nanny.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Noto+Sans+TC:300,400" rel="stylesheet">
+    <link href="Effect/lightGallery-master/dist/css/lightgallery.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="Effect/lightGallery-master/dist/css/lg-transitions.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+    <script src="Effect/lightGallery-master/dist/js/lightgallery-all.min.js"></script>
+    <script src="Effect/lightGallery-master/lib/jquery.mousewheel.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>月嫂先生</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="https://www.gtv.com.tw/">GTV 八大電視</a></div>
+        <div class="line"></div>
+        <div class="header-center ">
+            <div class="info "><a class="effect" href="#"><span>月嫂先生</span></a>    第1台27頻道 4/4起 每週一至週五 晚間9:00</div>
+        </div>
+        <ul class="header-right ">
+            <li id="move-story"><a href="#">故事簡介</a></li>
+            <li id="move-char"><a href="#">人物介紹</a></li>
+            <li id="move-trailer"><a href="#">最新介紹</a></li>
+            <li id="move-episodes"><a href="#">分集大綱</a></li>
+            <li id="move-lightgallery"><a href="#">劇照欣賞</a></li>
+        </ul>
+    </header>
+    <div class="wrapper"></div>
+   
+    <section class="section-story-intr">
+        <div class="row">
+            <h2 class="animated">故事簡介</h2>
+        </div>
+        <div class="row content animated">
+            <p>心理學教授沈心唯（吳奇隆 飾），是歐洲學術界備受矚目的學術新星。他為人正直，堅持正義，卻受人誣陷，一氣之下回國另謀發展。不料剛一回國卻攤上了更大的麻煩，生活都成了問題。白領那娜（李小冉 飾），剛與路凱在國外領證，卻得知路家即將在國內與許家聯姻。然而此時，那娜發現自己已經懷孕。機緣巧合下，沈心唯與那娜結識，那娜下定決心做個堅強的單親媽媽，而沈心唯主動成為了她的月嫂先生。二人從針鋒相對到逐漸瞭解，最終收穫了愛情的沈心唯，也放下一直以來的“學術執拗”，從那娜和孩子身上找到了事業的新方向。</p>
+        </div>
+    </section>
+    <section class="section-char-intr">
+            <div class="row">
+                <h2 class="animated">人物介紹</h2>
+            </div>
+        <div class="row animated">
+            <img src="img/cast_01.png" alt="">
+            <p class="char-intr"><span>沈心唯 </span> 吳奇隆 飾<br>
+            帥氣嚴謹的超級學霸，多倫多大學發展心理學博士，主攻“嬰幼兒人格行為養成及其影響因素”。表面上是有些放蕩不羈，實際上內心的正義感非常強。受人誣陷，一氣之下回國另謀發展。不料剛一回國卻攤上了更大的麻煩，生活都成了問題。</p>
+        </div>
+        <div class="row animated">
+            <img src="img/cast_02.png" alt="">
+            <p class="char-intr"><span>那娜 </span> 李小冉 飾<br>
+            自帶北京大妞“傲、驕、穩”的性格特質，大型金融公司人事主管，公私分明，幹練颯爽。生活中為人親切和善，感情生活並不順利的她並沒有因此消沉，而是勇敢面對生活中的一切困難，繼續在談判桌前與各路對手廝殺。</p>
+        </div>
+        <div class="row animated">
+            <img src="img/cast_03.png" alt="">
+            <p class="char-intr"><span>阮溪溪 </span> 王維維 飾<br>
+            那娜的發小閨蜜，平面模特、網紅、小演員，對外謊稱23歲的“90後”。天生麗質，身材火辣，有著“嗆死人不償命”的“毒舌”和同樣火辣的脾氣。</p>
+        </div>
+        <div class="row animated">
+            <img src="img/cast_04.png" alt="">
+            <p class="char-intr"><span>劉儻 </span> 董春輝 飾<br>
+            沈心唯高中時代的好哥們儿，經營女裝店的淘寶店主。人稱“儻爺”，能坐著絕不站著，能躺著絕不坐著，除了讀書，什麼都行，吊兒郎當卻極重義氣。是個典型的“媽寶男”，但女人緣好到炸裂。</p>
+        </div>
+        <div class="row animated">
+            <img src="img/cast_05.png" alt="">
+            <p class="char-intr"><span>那安 </span> 白志迪 飾<br>
+            那娜父親，國企大廠的高級技工，年輕時是心懷“詩和遠方"的文藝男，現在是人老心不老的“潮老頭兒”。</p>
+        </div>
+        <div class="row animated">
+            <img src="img/cast_06.png" alt="">
+            <p class="char-intr"><span>佟美琳 </span> 許娣 飾<br>
+            那娜母親，事事要強好面子，刀子嘴豆腐心，退休的幼兒園教師。</p>
+        </div>
+        
+    </section>
+    <section class="section-trailer">
+        <div class="row">
+            <h2>最新預告</h2>
+        </div>
+        <div class="trailer">
+            <iframe  src="https://www.youtube.com/embed/videoseries?list=PLik4698VTZrGOXm72FgsmHocNSLivo3Kv" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+    </section>
+    <section class="section-episodes">
+        <div class="row">
+            <h2 class="animated">分集大綱</h2>
+        </div>
+        <div class="row animated">
+            <div class="episodes">
+                <h3>第一集</h3>
+                <p class="content">歐洲發展心理學界備受矚目的華裔學術新星、布拉格大學副教授沈心唯在去一個重要論壇的路上遭遇華路地產公司負責運營的高管那娜，那娜與上司男友路凱秘密戀愛五年，今天是他們在教堂舉行儀式的日子。那娜和沈心唯因為一個小的交通意外起了紛爭，當晚在布拉格的酒吧，那娜和沈心唯再次相遇，沈心唯被那娜捉弄，但他卻從一對搶劫犯手下救了那娜。那娜醒來後錯判了形勢，誤會沈心唯，把他家弄得一片狼藉，並且無意間損毀了沈心唯珍藏的多件藝術品。沈心唯導師皮爾斯出於商業目的，陷害沈心唯學術造假，將他置之不利境地。那娜回國，剛下飛機就遭遇閨蜜阮溪溪求救，原來小倆口在領證的路上又起了矛盾，好不容易安撫住兩人，剛一回到自己家，嘰嘰喳喳的那媽佟美琳與愛折騰的那爸那安又在沒完沒了的爭吵。</p>
+            </div>
+        </div>
+        
+    </section>
+    <section class="section-lightgallery">
+        <div class="row">
+            <h2 class="animated">劇照欣賞</h2>
+        </div>
+        <div class="gallery">
+            <ul id="lightgallery" class="">
+                <li class="" data-src="img/Gallery_all_b01.jpg" >
+                    <a href="">
+                        <img class="img-responsive" src="img/Gallery_all_b01.jpg">
+                    </a>
+                </li>
+                <li class=""  data-src="img/Gallery_all_b02.jpg" >
+                    <a href="">
+                        <img class="img-responsive" src="img/Gallery_all_b02.jpg">
+                    </a>
+                </li>
+                <li class="" data-src="img/Gallery_all_b03.jpg" >
+                    <a href="">
+                        <img class="img-responsive" src="img/Gallery_all_b03.jpg">
+                    </a>
+                </li>
+                <li class="" data-src="img/Gallery_all_b04.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="img/Gallery_all_b04.jpg">
+                    </a>
+                </li>
+                <li class="" data-src="img/Gallery_all_b05.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="img/Gallery_all_b05.jpg">
+                    </a>
+                </li>
+                <li class="" data-src="img/Gallery_all_b06.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="img/Gallery_all_b06.jpg">
+                    </a>
+                </li>
+                <li class="" data-src="img/Gallery_all_b07.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="img/Gallery_all_b07.jpg">
+                    </a>
+                </li>
+                <li class="" data-src="img/Gallery_all_b08.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="img/Gallery_all_b08.jpg">
+                    </a>
+                </li>
+                <li class="" data-src="img/Gallery_all_b09.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="img/Gallery_all_b09.jpg">
+                    </a>
+                </li>
+                <li class="" data-src="img/Gallery_all_b10.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="img/Gallery_all_b10.jpg">
+                    </a>
+                </li>
+                <li class="" data-src="img/Gallery_all_b11.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="img/Gallery_all_b11.jpg">
+                    </a>
+                </li>
+                <li class="" data-src="img/Gallery_all_b12.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="img/Gallery_all_b12.jpg">
+                    </a>
+                </li>
+                <li class="" data-src="img/Gallery_all_b13.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="img/Gallery_all_b13.jpg">
+                    </a>
+                </li>
+                <li class="" data-src="img/Gallery_all_b14.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="img/Gallery_all_b14.jpg">
+                    </a>
+                </li>
+                <li class="" data-src="img/Gallery_all_b15.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="img/Gallery_all_b15.jpg">
+                    </a>
+                </li>
+                <li class="" data-src="img/Gallery_all_b16.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="img/Gallery_all_b16.jpg">
+                    </a>
+                </li>
+                <li class="" data-src="img/Gallery_all_b17.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="img/Gallery_all_b17.jpg">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="copyright">
+                <p>Copyright ©2019 本頁面為個人練習作品</p>
+            </div>
+        </div>
+    </footer>
+    <!--- gotop -->
+    <div><a href="#" id="gotop" ><i class="fa fa-angle-up"></i></a></div>
+</body>
+</html>
 
-You can use the [editor on GitHub](https://github.com/pinocchioh666/nanny/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<script>
+/*** 功能 - fadein ***/
+window.sr = ScrollReveal({ 
+  		origin: "bottom",
+  		distance: "20px",  // 距離
+  		duration: 1000,  // 動畫時間
+  		easing: "ease-in", // 動畫速度曲線
+  		reset: false, // 每次都啟動
+  	});
+  	sr.reveal( ".animated", {
+  		// 參數設定
+  	});
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+/*** 功能 - lightgallery***/
+$(document).ready(function(){
+    $('#lightgallery').lightGallery({
+        mode:'lg-fade'
+    });
+});
 
-### Markdown
+/*** 功能 - 移動到指定位置 ***/
+$('#move-story').click(function(){
+    $('html,body').animate({scrollTop:$('.section-story-intr').offset().top},800);
+});
+$('#move-char').click(function(){
+    $('html,body').animate({scrollTop:$('.section-char-intr').offset().top},800);
+});
+$('#move-trailer').click(function(){
+    $('html,body').animate({scrollTop:$('.section-trailer').offset().top},800);
+});
+$('#move-episodes').click(function(){
+    $('html,body').animate({scrollTop:$('.section-episodes').offset().top},800);
+});
+$('#move-lightgallery').click(function(){
+    $('html,body').animate({scrollTop:$('.section-lightgallery').offset().top},800);
+});
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pinocchioh666/nanny/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+/*** 功能 - gotop ***/
+$(function() {
+    /* 按下GoTop按鈕時的事件 */
+    $('#gotop').click(function(){
+        $('html,body').animate({ scrollTop: 0 }, 'slow');   /* 返回到最頂上 */
+        return false; /* return false 讓原本的 HTML 超連結失去效果，讓他專心做我們寫的 jQuery 效果 */
+    });
+        
+    /* 偵測卷軸滑動時，往下滑超過970px就讓GoTop按鈕出現 */
+    $(window).scroll(function() {
+        if ( $(this).scrollTop() > 970){
+            $('#gotop').fadeIn();
+        } else {
+            $('#gotop').fadeOut();
+        }
+    });
+});
+    
+</script>
