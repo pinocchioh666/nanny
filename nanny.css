@@ -106,6 +106,9 @@ header{
     margin-right:5px; 
     transition: .4s ease-in;
 }
+.info p{
+    display: inline;
+}
 
 .effect ::before{
     content: '';
@@ -135,7 +138,7 @@ header{
 
 .header-right li{
     float: left;
-    padding:0 15px 0;
+    padding:0 13px 0;
 }
 
 .header-right a{
@@ -325,7 +328,259 @@ footer{
 }
 /*****    animation      *****/
 /*****    RWD      *****/
-@media (max-width: 1200px) {
+@media (max-width: 767px) {
+/*****    Header    *****/
+    header{
+        height: 40px;
+        letter-spacing: .2em;
+        font-size: 10px;
+    }
+    .logo a{
+        font-size: 16px;
+    }
+    .line{
+        height: 20px;
+        margin: 0 8px; 
+    }
+    .info a{
+        font-size: 14px;
+        margin-right:4px; 
+    }
+    .info p{
+        display: none;
+    }
+    .effect :hover::before{
+        width: 65.5px;
+    }
+    .effect :hover::after{
+        width: 65.5px;
+    }
+    .header-right li{
+        padding:0 13px 0;
+    }
+    /*****    Header    *****/
+    .wrapper{
+        width: 100%;
+        height: 100vh;
+        background-image: url(img/Sketch0012.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        animation: fadein .7s ease-in-out; 
+    }
+    .header-right{
+        display: none;
+    }
+    h2{
+        padding-bottom: 40px
+    }
+    .content{
+        font-weight: 300;
+        font-size: 16px;
+        letter-spacing: .2em;
+        padding: 0 50px;
+    }
+    section{
+        padding: 30px 0;
+    }
+    .row img{
+        box-sizing: border-box;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 5px;
+        width: 300px;
+        height: 237px;
+        float: none;
+        border: 1px #000 solid; 
+    }
+    .row:nth-child(2n-1) img{
+        float: none;
+    }
+    
+    .char-intr{
+        text-align: justify;
+        font-size: 16px;
+        font-weight: 300;
+        float:none;
+        width: 300px;
+        margin: 0 auto;
+        padding: 0 0 20px;
+    }
+    
+    .char-intr span{
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 4em;
+        padding-right: 10px;
+    }
+    
+    iframe{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 450px;
+        height: 270px;
+    }
+}
+@media (max-width: 480px) {
+    .wrapper{
+        width: 100%;
+        height: 100vh;
+        background-image: url(img/Sketch0012.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        animation: fadein .7s ease-in-out; 
+    }
+    .header-right{
+        display: none;
+    }
+    h2{
+        padding-bottom: 30px
+    }
+    .content{
+        font-weight: 300;
+        font-size: 14px;
+        letter-spacing: .15em;
+        padding: 0 50px;
+    }
+    section{
+        padding: 30px 0;
+    }
+    .row img{
+        box-sizing: border-box;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 5px;
+        width: 300px;
+        height: 237px;
+        float: none;
+        border: 1px #000 solid; 
+    }
+    .row:nth-child(2n-1) img{
+        float: none;
+    }
+    
+    .char-intr{
+        text-align: justify;
+        font-size: 16px;
+        font-weight: 300;
+        float:none;
+        width: 300px;
+        margin: 0 auto;
+        padding: 0 0 20px;
+    }
+    
+    .char-intr span{
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 4em;
+        padding-right: 10px;
+    }
+    
+    iframe{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 360px;
+        height: 213px;
+    }
+    #gotop{
+        display: none !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+/*****    Header    *****/
+    header{
+        height: 40px;
+        letter-spacing: .2em;
+        font-size: 12px;
+    }
+    .logo a{
+        font-size: 18px;
+    }
+    .line{
+        height: 20px;
+        margin: 0 8px; 
+    }
+    .info a{
+        font-size: 16px;
+        margin-right:4px; 
+    }
+    .effect :hover::before{
+        width: 74px;
+    }
+    .effect :hover::after{
+        width: 74px;
+    }
+    .header-right li{
+        padding:0 13px 0;
+    }
+/*****    Header    *****/
+    .wrapper{
+        width: 100%;
+        height: 100vh;
+        background-image: url(img/Sketch0012.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        animation: fadein .7s ease-in-out; 
+    }
+    .header-right{
+        display: none;
+    }
+    h2{
+        padding-bottom: 50px
+    }
+    section{
+        padding: 40px 0;
+    }
+    .row img{
+        box-sizing: border-box;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 10px;
+        width: 500px;
+        height: 395px;
+        float: none;
+        border: 1px #000 solid; 
+    }
+    .row:nth-child(2n-1) img{
+        float: none;
+    }
+    
+    .char-intr{
+        text-align: justify;
+        font-size: 18px;
+        font-weight: 300;
+        float:none;
+        width: 500px;
+        margin: 0 auto;
+        padding: 0 0 40px;
+    }
+    
+    .char-intr span{
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 4em;
+        padding-right: 10px;
+    }
+
+    iframe{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 691px;
+        height: 389px;
+    }
+}
+@media (min-width: 980px) and (max-width: 1199px) {
     .header-right{
         display: none;
     }
@@ -334,9 +589,7 @@ footer{
         width: 384px;
         height: 304px;
         border: 1px #000 solid; 
-    }
-    .row:nth-child(2n-1) img{
-        float: right;
+        margin: 0 5px;
     }
     
     .char-intr{
@@ -362,45 +615,8 @@ footer{
         width: 768px;
         height: 432px;
     }
+}
+@media (min-width: 1200px) {
     
-    @media (max-width: 980px) {
-        h2{
-            padding-bottom: 50px
-        }
-        section{
-            padding: 40px 0;
-        }
-        .row img{
-            box-sizing: border-box;
-            position: relative;
-            left: 50%;
-            transform: translateX(-50%);
-            padding: 10px;
-            width: 500px;
-            height: 395px;
-            float: none;
-            border: 1px #000 solid; 
-        }
-        .row:nth-child(2n-1) img{
-            float: none;
-        }
-        
-        .char-intr{
-            text-align: justify;
-            font-size: 18px;
-            font-weight: 300;
-            float:none;
-            width: 500px;
-            margin: 0 auto;
-            padding: 0 0 40px;
-        }
-        
-        .char-intr span{
-            font-weight: 400;
-            font-size: 28px;
-            line-height: 4em;
-            padding-right: 10px;
-        }
-    }
 }
 /*****    RWD      *****/
