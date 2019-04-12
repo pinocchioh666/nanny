@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="nanny.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Noto+Sans+TC:300,400" rel="stylesheet">
-    <link href="Effect/lightGallery-master/dist/css/lightgallery.css" rel="stylesheet"> 
-    <link rel="stylesheet" href="Effect/lightGallery-master/dist/css/lg-transitions.css">
+    <link href="lightGallery-master/dist/css/lightgallery.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="lightGallery-master/dist/css/lg-transitions.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
-    <script src="Effect/lightGallery-master/dist/js/lightgallery-all.min.js"></script>
-    <script src="Effect/lightGallery-master/lib/jquery.mousewheel.min.js"></script>
+    <script src="lightGallery-master/dist/js/lightgallery-all.min.js"></script>
+    <script src="lightGallery-master/lib/jquery.mousewheel.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <title>月嫂先生</title>
 </head>
