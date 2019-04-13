@@ -406,7 +406,7 @@ footer{
         float:none;
         width: 300px;
         margin: 0 auto;
-        padding: 0 0 20px;
+        padding: 0 0 40px;
     }
     
     .char-intr span{
@@ -472,7 +472,7 @@ footer{
         float:none;
         width: 300px;
         margin: 0 auto;
-        padding: 0 0 20px;
+        padding: 0 0 40px;
     }
     
     .char-intr span{
@@ -486,7 +486,7 @@ footer{
         position: relative;
         left: 50%;
         transform: translateX(-50%);
-        width: 360px;
+        width: 350px;
         height: 213px;
     }
     #gotop{
@@ -598,7 +598,7 @@ footer{
         float: left;
         width: 500px;
         text-align: justify;
-        padding: 20px 0 0 50px;
+        padding: 20px 10px 0 35px;
     }
     
     .char-intr span{
